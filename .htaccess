@@ -1,0 +1,24 @@
+# Configuraciones personalizadas para límites de PHP
+<IfModule mod_php.c>
+    php_value memory_limit 99999999M
+    php_value max_execution_time 99999999
+    php_value max_input_time 99999999
+    php_value post_max_size 99999999M
+    php_value upload_max_filesize 99999999M
+    php_value max_input_vars 99999999
+</IfModule>
+
+# BEGIN WordPress
+# Las directivas (líneas) entre «BEGIN WordPress» y «END WordPress» son
+# generadas dinámicamente y solo deberían ser modificadas mediante filtros de WordPress.
+# Cualquier cambio en las directivas que hay entre esos marcadores serán sobrescritas.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /proyectos/esumaq/WordpressEsumaq/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /proyectos/esumaq/WordpressEsumaq/index.php [L]
+</IfModule>
+# END WordPress

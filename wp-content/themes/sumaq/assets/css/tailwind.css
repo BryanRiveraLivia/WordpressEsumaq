@@ -1,0 +1,24 @@
+/*
+Theme Name:        SUMAQ Grupo Inmobiliario
+Theme URI:         https://sumaqgrupo.com/
+Description:       Tema personalizado para SUMAQ Grupo Inmobiliario, especializado en el desarrollo de proyectos inmobiliarios en Perú.
+Version:           1.0.0
+Author:            SUMAQ Grupo
+Author URI:        https://sumaqgrupo.com/
+Tags:              inmobiliaria, construcción, proyectos, Perú, bienes raíces
+Text Domain:       sumaq-grupo
+Domain Path:       /languages
+Tested up to:      6.4
+Requires at least: 6.2
+Requires PHP:      7.4
+License:           GNU General Public License v2.0 or later
+License URI:       https://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-sans;
+}
