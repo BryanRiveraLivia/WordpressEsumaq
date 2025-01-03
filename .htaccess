@@ -21,4 +21,5 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /proyectos/esumaq/WordpressEsumaq/index.php [L]
 </IfModule>
+
 # END WordPress
