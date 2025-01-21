@@ -13,7 +13,7 @@
             <div>
                 <a href="<?php echo home_url()?>">
                     <img class="4k:w-[180px] 3xl:w-[180px] 2xl:w-[180px] xl:w-[180px] lg:w-[180px] md:w-[150px] sm:w-[150px] xs:w-[150px]"
-                        src="<?php echo esc_url( get_field( 'logo', 'options' ) ); ?>" alt="Logo de SUMAQ">
+                        src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.png" alt="Logo de SUMAQ">
                 </a>
             </div>
             <?php

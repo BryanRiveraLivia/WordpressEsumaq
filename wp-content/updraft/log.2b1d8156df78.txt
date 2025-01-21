@@ -1,0 +1,210 @@
+0000.000 (0) Opened log file at time: Tue, 21 Jan 2025 05:40:18 +0000 on http://localhost/proyectos/WordpressEsumaq
+0000.010 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.25.1 WP: 6.7.1 PHP: 8.2.12 (apache2handler, Windows NT DESKTOP-P0S22PL 10.0 build 19045 (Windows 10) AMD64) MySQL: 10.4.32-MariaDB (max packet size=1048576) WPLANG: es_ES Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 safe_mode: 0 max_execution_time: 900 memory_limit: 9999M (used: 54.2M | 56M) multisite: N openssl: OpenSSL 3.0.11 19 Sep 2023 mcrypt: N LANG:  ZipArchive::addFile: N
+0000.011 (0) Free space on disk containing Updraft's temporary directory: 1713503 MB
+0000.013 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.014 (0) Semaphore (fd, __wp_options) being initialised
+0000.017 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.019 (0) Set semaphore last lock (fd) time to 2025-01-21 05:40:18
+0000.020 (0) Semaphore lock (fd) complete
+0000.023 (0) Backup run: resumption=0, nonce=2b1d8156df78, file_nonce=2b1d8156df78 begun at=1737438018 (0s ago), job type=backup
+0000.024 (0) Scheduling a resumption (1) after 300 seconds (1737438318) in case this run gets aborted
+0000.032 (0) Checking if we have a zip executable available
+0000.034 (0) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+0000.035 (0) Creation of backups of directories: beginning
+0000.039 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0001.288 (0) Total entities for the zip file: 338 directories, 2552 files (0 skipped as non-modified), 71 MB
+0001.291 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 72673.5 KB, split: 409600 KB)
+0001.336 (0) Zip: backup_2025-01-21-0640_SUMAQ_2b1d8156df78-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0001.376 (0) Zip: backup_2025-01-21-0640_SUMAQ_2b1d8156df78-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0001.411 (0) Zip: backup_2025-01-21-0640_SUMAQ_2b1d8156df78-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0001.448 (0) Zip: backup_2025-01-21-0640_SUMAQ_2b1d8156df78-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0001.488 (0) Zip: backup_2025-01-21-0640_SUMAQ_2b1d8156df78-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0001.526 (0) Zip: backup_2025-01-21-0640_SUMAQ_2b1d8156df78-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0001.560 (0) Zip: backup_2025-01-21-0640_SUMAQ_2b1d8156df78-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0001.595 (0) Zip: backup_2025-01-21-0640_SUMAQ_2b1d8156df78-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0001.630 (0) Zip: backup_2025-01-21-0640_SUMAQ_2b1d8156df78-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0001.671 (0) Zip: backup_2025-01-21-0640_SUMAQ_2b1d8156df78-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0001.710 (0) Zip: backup_2025-01-21-0640_SUMAQ_2b1d8156df78-plugins.zip.tmp: 1100 files added (on-disk size: 0 KB)
+0001.746 (0) Zip: backup_2025-01-21-0640_SUMAQ_2b1d8156df78-plugins.zip.tmp: 1200 files added (on-disk size: 0 KB)
+0001.782 (0) Zip: backup_2025-01-21-0640_SUMAQ_2b1d8156df78-plugins.zip.tmp: 1300 files added (on-disk size: 0 KB)
+0001.825 (0) Zip: backup_2025-01-21-0640_SUMAQ_2b1d8156df78-plugins.zip.tmp: 1400 files added (on-disk size: 0 KB)
+0001.864 (0) Zip: backup_2025-01-21-0640_SUMAQ_2b1d8156df78-plugins.zip.tmp: 1500 files added (on-disk size: 0 KB)
+0001.904 (0) Zip: backup_2025-01-21-0640_SUMAQ_2b1d8156df78-plugins.zip.tmp: 1600 files added (on-disk size: 0 KB)
+0001.941 (0) Zip: backup_2025-01-21-0640_SUMAQ_2b1d8156df78-plugins.zip.tmp: 1700 files added (on-disk size: 0 KB)
+0001.978 (0) Zip: backup_2025-01-21-0640_SUMAQ_2b1d8156df78-plugins.zip.tmp: 1800 files added (on-disk size: 0 KB)
+0002.017 (0) Zip: backup_2025-01-21-0640_SUMAQ_2b1d8156df78-plugins.zip.tmp: 1900 files added (on-disk size: 0 KB)
+0002.056 (0) Zip: backup_2025-01-21-0640_SUMAQ_2b1d8156df78-plugins.zip.tmp: 2000 files added (on-disk size: 0 KB)
+0002.096 (0) Zip: backup_2025-01-21-0640_SUMAQ_2b1d8156df78-plugins.zip.tmp: 2100 files added (on-disk size: 0 KB)
+0002.136 (0) Zip: backup_2025-01-21-0640_SUMAQ_2b1d8156df78-plugins.zip.tmp: 2200 files added (on-disk size: 0 KB)
+0002.175 (0) Zip: backup_2025-01-21-0640_SUMAQ_2b1d8156df78-plugins.zip.tmp: 2300 files added (on-disk size: 0 KB)
+0002.215 (0) Zip: backup_2025-01-21-0640_SUMAQ_2b1d8156df78-plugins.zip.tmp: 2400 files added (on-disk size: 0 KB)
+0002.255 (0) Zip: backup_2025-01-21-0640_SUMAQ_2b1d8156df78-plugins.zip.tmp: 2500 files added (on-disk size: 0 KB)
+0121.286 (0) Creating zip file manifest (backup_2025-01-21-0640_SUMAQ_2b1d8156df78-plugins.zip.list-temp.tmp)
+0121.302 (0) Successfully created zip file manifest (size: 214970)
+0121.439 (0) Created plugins zip (0) - 20102.1 KB in 121.4 s (165.6 KB/s) (sha1: 58e64909b0dfa0376a1735f2d9872a0a0ff2df0a, sha256: 8bafd093d6eeb35ac9a7c7106a48c9bfe534b4bbf19b51275b71fdaa33f89fc0)
+0121.444 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0121.444 (0) No remote despatch: user chose no remote backup service
+0121.445 (0) Recording as successfully uploaded: backup_2025-01-21-0640_SUMAQ_2b1d8156df78-plugins.zip
+0121.447 (0) Deleting zip manifest (backup_2025-01-21-0640_SUMAQ_2b1d8156df78-plugins.zip.list.tmp)
+0121.449 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0121.449 (0) Number of backup sets in history: 0; groups (db): 1
+0121.450 (0) Number of backup sets in history: 0; groups (files): 1
+0121.451 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0121.456 (0) Beginning creation of dump of themes (split every: 400 MB)
+0121.482 (0) Total entities for the zip file: 8 directories, 51 files (0 skipped as non-modified), 1.6 MB
+0121.483 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 1598.7 KB, split: 409600 KB)
+0121.611 (0) Creating zip file manifest (backup_2025-01-21-0640_SUMAQ_2b1d8156df78-themes.zip.list-temp.tmp)
+0121.613 (0) Successfully created zip file manifest (size: 2382)
+0121.627 (0) Created themes zip (0) - 1379.3 KB in 0.2 s (8245.7 KB/s) (sha1: a0bddab38ecab156d31b2c0082a8bb33635e5911, sha256: 3fab07a9a143d6db14319d8bba6a5b790bd082c91561dec1ea4ef9b3fbdc734d)
+0121.631 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0121.631 (0) No remote despatch: user chose no remote backup service
+0121.632 (0) Recording as successfully uploaded: backup_2025-01-21-0640_SUMAQ_2b1d8156df78-themes.zip
+0121.634 (0) Deleting zip manifest (backup_2025-01-21-0640_SUMAQ_2b1d8156df78-themes.zip.list.tmp)
+0121.635 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0121.637 (0) Number of backup sets in history: 0; groups (db): 1
+0121.638 (0) Number of backup sets in history: 0; groups (files): 1
+0121.638 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0121.642 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0121.642 (0) Looking for candidates to backup in: C:\xampp\htdocs\proyectos\WordpressEsumaq/wp-content/uploads
+0121.643 (0) finding files: 2024: adding to list (1)
+0121.644 (0) finding files: 2025: adding to list (2)
+0121.644 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0121.651 (0) Total entities for the zip file: 4 directories, 2 files (0 skipped as non-modified), 0.1 MB
+0121.651 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 53.5 KB, split: 409600 KB)
+0121.665 (0) Creating zip file manifest (backup_2025-01-21-0640_SUMAQ_2b1d8156df78-uploads.zip.list-temp.tmp)
+0121.666 (0) Successfully created zip file manifest (size: 105)
+0121.671 (0) Created uploads zip (0) - 40.5 KB in 0 s (1734.6 KB/s) (sha1: 6f6d199bf4b226d53ba70e8209371003804aacdd, sha256: 741a5a23c7f5e1f0dfa98905efb36727b08c50f2d7fbf20b5436482f0a6dde96)
+0121.674 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0121.674 (0) No remote despatch: user chose no remote backup service
+0121.675 (0) Recording as successfully uploaded: backup_2025-01-21-0640_SUMAQ_2b1d8156df78-uploads.zip
+0121.676 (0) Deleting zip manifest (backup_2025-01-21-0640_SUMAQ_2b1d8156df78-uploads.zip.list.tmp)
+0121.678 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0121.678 (0) Number of backup sets in history: 0; groups (db): 1
+0121.679 (0) Number of backup sets in history: 0; groups (files): 1
+0121.679 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0121.683 (0) No backup of mu-plugins: excluded by user's options
+0121.684 (0) Beginning backup of other directories found in the content directory (index: 0)
+0121.685 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0121.686 (0) Looking for candidates to backup in: C:\xampp\htdocs\proyectos\WordpressEsumaq/wp-content
+0121.686 (0) finding files: index.php: adding to list (1)
+0121.687 (0) finding files: languages: adding to list (2)
+0121.688 (0) finding files: plugins: skipping: this is the plugins directory
+0121.688 (0) finding files: themes: skipping: this is the themes directory
+0121.689 (0) finding files: updraft: skipping: this is the updraft directory
+0121.689 (0) finding files: upgrade: skipping: excluded by options
+0121.690 (0) finding files: uploads: skipping: this is the uploads directory
+0121.715 (0) Total entities for the zip file: 1 directories, 74 files (0 skipped as non-modified), 3.8 MB
+0121.716 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 3934.2 KB, split: 409600 KB)
+0121.910 (0) Creating zip file manifest (backup_2025-01-21-0640_SUMAQ_2b1d8156df78-others.zip.list-temp.tmp)
+0121.912 (0) Successfully created zip file manifest (size: 4415)
+0121.924 (0) Created others zip (0) - 1088.2 KB in 0.2 s (4719.2 KB/s) (sha1: 4a665cb08128721081360acddddfe28816c4cfa0, sha256: 1a46b2811b8c026ec352e8c470fdbf52bcf93fcd89e400f14ec0d61401468e68)
+0121.927 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0121.928 (0) No remote despatch: user chose no remote backup service
+0121.929 (0) Recording as successfully uploaded: backup_2025-01-21-0640_SUMAQ_2b1d8156df78-others.zip
+0121.930 (0) Deleting zip manifest (backup_2025-01-21-0640_SUMAQ_2b1d8156df78-others.zip.list.tmp)
+0121.932 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0121.933 (0) Number of backup sets in history: 0; groups (db): 1
+0121.933 (0) Number of backup sets in history: 0; groups (files): 1
+0121.934 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0121.939 (0) Saving backup status to database (elements: 8)
+0121.941 (0) Beginning creation of database dump (WordPress DB)
+0121.942 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0121.957 (0) Table __wp_options: Total expected rows (via COUNT): 197
+0121.958 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0121.985 (0) Table __wp_options: Rows added in this batch (next record: 273): 193 (uncompressed bytes in this segment=806933) in 0.04 seconds
+0121.990 (0) Table __wp_options: finishing file(s) (2, 223.6 KB)
+0121.995 (0) Table __wp_users: Total expected rows (via COUNT): 1
+0121.996 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0121.997 (0) Table __wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1197) in 0.01 seconds
+0122.001 (0) Table __wp_users: finishing file(s) (2, 0.6 KB)
+0122.007 (0) Table __wp_usermeta: Total expected rows (via COUNT): 20
+0122.007 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0122.008 (0) Table __wp_usermeta: Rows added in this batch (next record: 20): 20 (uncompressed bytes in this segment=1853) in 0.01 seconds
+0122.013 (0) Table __wp_usermeta: finishing file(s) (2, 1 KB)
+0122.019 (0) Table __wp_commentmeta: Total expected rows (via COUNT): 0
+0122.020 (0) Table __wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=646) in 0.01 seconds
+0122.024 (0) Table __wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0122.029 (0) Table __wp_comments: Total expected rows (via COUNT): 1
+0122.030 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0122.031 (0) Table __wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1939) in 0.01 seconds
+0122.035 (0) Table __wp_comments: finishing file(s) (2, 0.8 KB)
+0122.042 (0) Table __wp_links: Total expected rows (via COUNT): 0
+0122.044 (0) Table __wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1039) in 0.00 seconds
+0122.048 (0) Table __wp_links: finishing file(s) (2, 0.5 KB)
+0122.054 (0) Table __wp_postmeta: Total expected rows (via COUNT): 127
+0122.055 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0122.059 (0) Table __wp_postmeta: Rows added in this batch (next record: 156): 127 (uncompressed bytes in this segment=5805) in 0.01 seconds
+0122.064 (0) Table __wp_postmeta: finishing file(s) (2, 1.3 KB)
+0122.071 (0) Table __wp_posts: Total expected rows (via COUNT): 39
+0122.071 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0122.074 (0) Table __wp_posts: Rows added in this batch (next record: 41): 39 (uncompressed bytes in this segment=21081) in 0.01 seconds
+0122.079 (0) Table __wp_posts: finishing file(s) (2, 4.3 KB)
+0122.084 (0) Table __wp_term_relationships: Total expected rows (approximate): 12
+0122.085 (0) Table __wp_term_relationships: Rows added in this batch (next record: 100000): 12 (uncompressed bytes in this segment=854) in 0.00 seconds
+0122.089 (0) Table __wp_term_relationships: finishing file(s) (2, 0.4 KB)
+0122.095 (0) Table __wp_term_taxonomy: Total expected rows (via COUNT): 6
+0122.095 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0122.097 (0) Table __wp_term_taxonomy: Rows added in this batch (next record: 6): 6 (uncompressed bytes in this segment=1056) in 0.01 seconds
+0122.101 (0) Table __wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0122.108 (0) Table __wp_termmeta: Total expected rows (via COUNT): 0
+0122.109 (0) Table __wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=619) in 0.01 seconds
+0122.114 (0) Table __wp_termmeta: finishing file(s) (2, 0.4 KB)
+0122.119 (0) Table __wp_terms: Total expected rows (via COUNT): 6
+0122.119 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0122.121 (0) Table __wp_terms: Rows added in this batch (next record: 6): 6 (uncompressed bytes in this segment=858) in 0.01 seconds
+0122.125 (0) Table __wp_terms: finishing file(s) (2, 0.5 KB)
+0122.125 (0) PHP event: code E_WARNING: filemtime(): stat failed for C:\xampp\htdocs\proyectos\WordpressEsumaq/wp-content/updraft/backup_2025-01-21-0640_SUMAQ_2b1d8156df78-db.gz (line 1923, C:\xampp\htdocs\proyectos\WordpressEsumaq\wp-content\plugins\updraftplus\backup.php)
+0122.127 (0) backup_2025-01-21-0640_SUMAQ_2b1d8156df78-db-table-__wp_options.table.tmpr274.gz (1/12/fopen): adding to final database dump
+0122.134 (0) backup_2025-01-21-0640_SUMAQ_2b1d8156df78-db-table-__wp_options.table.gz (2/12/fopen): adding to final database dump
+0122.135 (0) backup_2025-01-21-0640_SUMAQ_2b1d8156df78-db-table-__wp_users.table.tmpr2.gz (3/12/fopen): adding to final database dump
+0122.136 (0) backup_2025-01-21-0640_SUMAQ_2b1d8156df78-db-table-__wp_users.table.gz (4/12/fopen): adding to final database dump
+0122.137 (0) backup_2025-01-21-0640_SUMAQ_2b1d8156df78-db-table-__wp_usermeta.table.tmpr21.gz (5/12/fopen): adding to final database dump
+0122.137 (0) backup_2025-01-21-0640_SUMAQ_2b1d8156df78-db-table-__wp_usermeta.table.gz (6/12/fopen): adding to final database dump
+0122.138 (0) backup_2025-01-21-0640_SUMAQ_2b1d8156df78-db-table-__wp_commentmeta.table.tmpr0.gz (7/12/fopen): adding to final database dump
+0122.139 (0) backup_2025-01-21-0640_SUMAQ_2b1d8156df78-db-table-__wp_commentmeta.table.gz (8/12/fopen): adding to final database dump
+0122.139 (0) backup_2025-01-21-0640_SUMAQ_2b1d8156df78-db-table-__wp_comments.table.tmpr2.gz (9/12/fopen): adding to final database dump
+0122.140 (0) backup_2025-01-21-0640_SUMAQ_2b1d8156df78-db-table-__wp_comments.table.gz (10/12/fopen): adding to final database dump
+0122.141 (0) backup_2025-01-21-0640_SUMAQ_2b1d8156df78-db-table-__wp_links.table.tmpr0.gz (11/12/fopen): adding to final database dump
+0122.142 (0) backup_2025-01-21-0640_SUMAQ_2b1d8156df78-db-table-__wp_links.table.gz (12/12/fopen): adding to final database dump
+0122.142 (0) backup_2025-01-21-0640_SUMAQ_2b1d8156df78-db-table-__wp_postmeta.table.tmpr157.gz (13/12/fopen): adding to final database dump
+0122.143 (0) backup_2025-01-21-0640_SUMAQ_2b1d8156df78-db-table-__wp_postmeta.table.gz (14/12/fopen): adding to final database dump
+0122.144 (0) backup_2025-01-21-0640_SUMAQ_2b1d8156df78-db-table-__wp_posts.table.tmpr42.gz (15/12/fopen): adding to final database dump
+0122.145 (0) backup_2025-01-21-0640_SUMAQ_2b1d8156df78-db-table-__wp_posts.table.gz (16/12/fopen): adding to final database dump
+0122.145 (0) backup_2025-01-21-0640_SUMAQ_2b1d8156df78-db-table-__wp_term_relationships.table.tmpr100001.gz (17/12/fopen): adding to final database dump
+0122.146 (0) backup_2025-01-21-0640_SUMAQ_2b1d8156df78-db-table-__wp_term_relationships.table.gz (18/12/fopen): adding to final database dump
+0122.147 (0) backup_2025-01-21-0640_SUMAQ_2b1d8156df78-db-table-__wp_term_taxonomy.table.tmpr7.gz (19/12/fopen): adding to final database dump
+0122.147 (0) backup_2025-01-21-0640_SUMAQ_2b1d8156df78-db-table-__wp_term_taxonomy.table.gz (20/12/fopen): adding to final database dump
+0122.148 (0) backup_2025-01-21-0640_SUMAQ_2b1d8156df78-db-table-__wp_termmeta.table.tmpr0.gz (21/12/fopen): adding to final database dump
+0122.149 (0) backup_2025-01-21-0640_SUMAQ_2b1d8156df78-db-table-__wp_termmeta.table.gz (22/12/fopen): adding to final database dump
+0122.149 (0) backup_2025-01-21-0640_SUMAQ_2b1d8156df78-db-table-__wp_terms.table.tmpr7.gz (23/12/fopen): adding to final database dump
+0122.150 (0) backup_2025-01-21-0640_SUMAQ_2b1d8156df78-db-table-__wp_terms.table.gz (24/12/fopen): adding to final database dump
+0122.159 (0) backup_2025-01-21-0640_SUMAQ_2b1d8156df78-db.gz: finished writing out complete database file (234.5 KB)
+0122.168 (0) Total database tables backed up: 12 (backup_2025-01-21-0640_SUMAQ_2b1d8156df78-db.gz, size: 240245, sha1: 2f9930edb43b23c52983ba6821032476aed1ee7e, sha256: 2336cc6109be1f333714b53b89144e8381f7d1f6fca0374a12f0a7018d1058ed)
+0122.171 (0) backup_2025-01-21-0640_SUMAQ_2b1d8156df78-plugins.zip: plugins: This file has already been successfully processed
+0122.172 (0) backup_2025-01-21-0640_SUMAQ_2b1d8156df78-themes.zip: themes: This file has already been successfully processed
+0122.172 (0) backup_2025-01-21-0640_SUMAQ_2b1d8156df78-uploads.zip: uploads: This file has already been successfully processed
+0122.173 (0) backup_2025-01-21-0640_SUMAQ_2b1d8156df78-others.zip: others: This file has already been successfully processed
+0122.173 (0) backup_2025-01-21-0640_SUMAQ_2b1d8156df78-db.gz: db: This file has not yet been successfully uploaded: will queue
+0122.174 (0) Saving backup history. Total backup size: 22.3 MB
+0122.175 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0122.177 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0122.178 (0) No remote despatch: user chose no remote backup service
+0122.178 (0) Recording as successfully uploaded: backup_2025-01-21-0640_SUMAQ_2b1d8156df78-db.gz
+0122.180 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0122.181 (0) Number of backup sets in history: 1; groups (db): 1
+0122.182 (0) Examining (for databases) backup set with group_id=0, nonce=2b1d8156df78, datestamp=1737438018 (Jan 21 2025 05:40:18)
+0122.182 (0) This backup set is the backup set just made, so will not be deleted.
+0122.182 (0) Number of backup sets in history: 1; groups (files): 1
+0122.183 (0) Examining (for files) backup set with nonce=2b1d8156df78, datestamp=1737438018 (Jan 21 2025 05:40:18)
+0122.183 (0) This backup set is the backup set just made, so will not be deleted.
+0122.184 (0) This backup set is the backup set just made, so will not be deleted.
+0122.184 (0) This backup set is the backup set just made, so will not be deleted.
+0122.184 (0) This backup set is the backup set just made, so will not be deleted.
+0122.184 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0122.184 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0122.186 (0) Resume backup (2b1d8156df78, 0): finish run
+0122.187 (0) Decremented the semaphore (fd) by 1
+0122.188 (0) Semaphore (fd) unlocked
+0122.188 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0122.191 (0) No email will/can be sent - the user has not configured an email address.
+0122.191 (0) The backup succeeded and is now complete
